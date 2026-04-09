@@ -1,6 +1,6 @@
 # Epoll-based TCP Server in C
 
-## Overview
+Overview
 -----------
 This project implements a scalable TCP echo server in C using:
 
@@ -9,7 +9,7 @@ This project implements a scalable TCP echo server in C using:
 - Per-client connection state management
 - Basic logging
 
-## Features
+Features
 -----------
 - Handles multiple concurrent clients
 - Uses epoll for efficient event handling
@@ -17,7 +17,7 @@ This project implements a scalable TCP echo server in C using:
 - Connection lifecycle logging (connect/disconnect/messages)
 - Safe buffer handling
 
-## How it works
+How it works
 ---------------
 - Server socket is set to non-blocking mode
 - epoll monitors:
@@ -32,7 +32,7 @@ This project implements a scalable TCP echo server in C using:
   }
 
   
-##Topics
+Topics
 --------
 c
 linux
