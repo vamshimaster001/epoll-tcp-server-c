@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
 
-TARGET = TCPECHOSERVER
-SRC = TCPECHOSERVER-multiple_NONBLK-EPOLL-PRODUCTION-VERSION.c
+TARGET = tcp_server
+SRC = tcp_server.c
 
 all:
 	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
