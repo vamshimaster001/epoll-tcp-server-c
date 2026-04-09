@@ -27,3 +27,16 @@ This project implements a scalable TCP echo server in C using:
       char buffer[1024];
       int buffer_len;
   }
+##Topics
+c
+linux
+epoll
+tcp-server
+socket-programming
+network-programming
+systems-programming
+non-blocking-io
+event-driven
+io-multiplexing
+event-loop
+tcp-ip
