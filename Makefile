@@ -1,0 +1,11 @@
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+TARGET = TCPECHOSERVER
+SRC = TCPECHOSERVER-multiple_NONBLK-EPOLL-PRODUCTION-VERSION.c
+
+all:
+	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
+
+clean:
+	rm -f $(TARGET)
